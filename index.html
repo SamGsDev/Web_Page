@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Albert Camus</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #b3121d;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  h1 {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin: 0;
+    padding: 0 1rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  img {
+    width: 220px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.35);
+  }
+  .biografia {
+    display: flex;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 2.5rem auto 3rem auto;
+    padding: 0 1.5rem;
+  }
+  .biografia div {
+    flex: 1;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  .biografia h2 {
+    font-size: 1.1rem;
+    letter-spacing: 0.03em;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.8rem;
+  }
+  @media (max-width: 700px) {
+    .biografia {
+      flex-direction: column;
+    }
+  }
+  .obras {
+    max-width: 1000px;
+    margin: 0 auto 4rem auto;
+    padding: 0 1.5rem;
+  }
+  .obras h2 {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 1.4rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    padding-bottom: 0.6rem;
+  }
+  .obras-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem 2rem;
+    width: 100%;
+  }
+  .fila-libros {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .libro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  .libro:nth-child(1) { transform: rotate(-6deg) translateY(6px); }
+  .libro:nth-child(2) { transform: rotate(0deg) translateY(-6px); }
+  .libro:nth-child(3) { transform: rotate(6deg) translateY(6px); }
+  .libro:hover { transform: translateY(-10px) scale(1.05); }
+  .portada {
+    width: 120px;
+    height: 175px;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+    border: 1px solid rgba(255,255,255,0.25);
+    overflow: hidden;
+  }
+  .portada img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .libro span {
+    font-size: 0.78rem;
+    color: rgba(255,255,255,0.85);
+  }
+</style>
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Albert Camus</h1>
+    <img src="../Albert Camus/Libros/OIP.webp" alt="Retrato de Albert Camus">
+    <div class="biografia">
+      <div>
+        <h2>Primeros años</h2>
+        <p>Albert Camus nació el 7 de noviembre de 1913 en Mondovi, Argelia, entonces colonia francesa. Creció en un hogar humilde en Argel junto a su madre, ya que su padre murió en la Primera Guerra Mundial cuando él era muy pequeño. A pesar de las dificultades económicas, destacó en sus estudios gracias al apoyo de un maestro que reconoció su talento, lo que le permitió acceder a la universidad y estudiar filosofía.</p>
+      </div>
+      <div>
+        <h2>Carrera y obra</h2>
+        <p>Camus se dedicó al periodismo y a la literatura, publicando obras fundamentales como "El extranjero", "La peste" y "El mito de Sísifo". Sus escritos exploran el absurdo de la existencia humana y la búsqueda de sentido en un mundo indiferente. Durante la Segunda Guerra Mundial participó en la Resistencia francesa como editor del periódico clandestino Combat.</p>
+      </div>
+      <div>
+        <h2>Legado</h2>
+        <p>En 1957 recibió el Premio Nobel de Literatura, convirtiéndose en uno de los galardonados más jóvenes de la historia. Murió trágicamente en un accidente automovilístico el 4 de enero de 1960, a los 46 años. Su pensamiento sobre el absurdo y la rebeldía sigue siendo una influencia central en la filosofía y la literatura contemporáneas.</p>
+      </div>
+    </div>
+
+    <div class="obras">
+      <h2>Obras principales</h2>
+      <div class="obras-grid">
+        <div class="fila-libros">
+          <div class="libro">
+            <div class="portada" style="background:#7a1e1e;"><img src="../Albert Camus/Libros/Extranjero.webp" alt="Portada de El extranjero"></div>
+            <span>Novela, 1942</span>
+          </div>
+          <div class="libro">
+            <div class="portada" style="background:#2c2c2c;"><img src="../Albert Camus/Libros/Sisifo.webp" alt="Portada de El mito de Sísifo"></div>
+            <span>Ensayo, 1942</span>
+          </div>
+          <div class="libro">
+            <div class="portada" style="background:#8c5a1e;"><img src="../Albert Camus/Libros/Caligula.webp" alt="Portada de Calígula"></div>
+            <span>Teatro, 1944</span>
+          </div>
+        </div>
+        <div class="fila-libros">
+          <div class="libro">
+            <div class="portada" style="background:#3a3a5c;"><img src="../Albert Camus/Libros/Malentendido.webp" alt="Portada de El malentendido"></div>
+            <span>Teatro, 1944</span>
+          </div>
+          <div class="libro">
+            <div class="portada" style="background:#1e5c3a;"><img src=".//Libros/La peste.webp" alt="Portada de La peste"></div>
+            <span>Novela, 1947</span>
+          </div>
+          <div class="libro">
+            <div class="portada" style="background:#5c1e4a;"><img src="../Albert Camus/Libros/Estado de sitio.webp" alt="Portada de El estado de sitio"></div>
+            <span>Teatro, 1948</span>
+          </div>
+        </div>
+        <div class="fila-libros">
+          <div class="libro">
+            <div class="portada" style="background:#4a3a1e;"><img src="../Albert Camus/Libros/Los justos.webp" alt="Portada de Los justos"></div>
+            <span>Teatro, 1949</span>
+          </div>
+          <div class="libro">
+            <div class="portada" style="background:#1e3a5c;"><img src="../Albert Camus/Libros/Hombre rebelde.webp" alt="Portada de El hombre rebelde"></div>
+            <span>Ensayo, 1951</span>
+          </div>
+          <div class="libro">
+            <div class="portada" style="background:#5c3a1e;"><img src="../Albert Camus/Libros/La caida.webp" alt="Portada de La caída"></div>
+            <span>Novela, 1956</span>
+          </div>
+        </div>
+        <div class="fila-libros">
+          <div class="libro">
+            <div class="portada" style="background:#3a5c1e;"><img src="../Albert Camus/Libros/Reino.webp" alt="Portada de El exilio y el reino"></div>
+            <span>Cuentos, 1957</span>
+          </div>
+          <div class="libro">
+            <div class="portada" style="background:#5c1e1e;"><img src="../Albert Camus/Libros/El primer hombre.webp" alt="Portada de El primer hombre"></div>
+            <span>Novela póstuma, 1994</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <iframe
+      width="560"
+      height="315"
+      src="../Albert Camus/Libros/videoplayback.mp4"
+      title="Video de Albert Camus"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    >
+  </div>
+</body>
+</html>
