@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   min-height: 100%;
-  background-color: #b3121d;
+  background-color: #821E0E;
   background-image: radial-gradient(circle at 50% 0%, #c8232f 0%, #b3121d 55%);
   display: flex;
   align-items: flex-start;
