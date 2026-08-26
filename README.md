@@ -1,22 +1,88 @@
-# Web_Page
+<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Albert_Camus%2C_1957.jpg/800px-Albert_Camus%2C_1957.jpg" width="30%">
 
-![Albert Camus](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+<h1>
+  📖 Albert Camus — Vida y Obra
+</h1>
 
-Página web sobre la vida y obra de Albert Camus (1913–1960), escritor, filósofo y periodista francés, ganador del Premio Nobel de Literatura en 1957.
+<p>
+Página web educativa dedicada a la vida, obra y pensamiento de 
+<strong>Albert Camus (1913–1960)</strong>, escritor, filósofo y periodista francés,
+ganador del Premio Nobel de Literatura en 1957.
+</p>
 
-## Contenido de la página
+- 🖥️ Proyecto desarrollado como una página web informativa e interactiva.
+- 📚 Explora la vida, trayectoria, obras y pensamiento filosófico de Camus.
+- 🎨 Diseño con tema oscuro rojizo, tarjetas con efecto de vidrio y diseño responsivo.
+- 🎯 Objetivo: presentar de forma visual y sencilla los aspectos más importantes de su vida y obra.
 
-La página está organizada en secciones accesibles desde un menú desplegable ("Secciones") ubicado en la parte superior:
+---
 
-- **Primeros años**: infancia de Camus en Argel, la muerte de su padre en la Primera Guerra Mundial y su formación académica gracias al apoyo de un maestro.
-- **Carrera y obra**: su trayectoria como periodista y escritor, su participación en la Resistencia francesa durante la Segunda Guerra Mundial como editor del periódico clandestino *Combat*, y sus obras fundamentales.
-- **Legado**: el Premio Nobel de Literatura de 1957, su muerte en 1960 y la influencia perdurable de su pensamiento.
-- **Lo Absurdo**: explicación del concepto filosófico central de Camus, el choque entre la búsqueda humana de sentido y la indiferencia del universo, su rechazo tanto del suicidio como del "suicidio filosófico" (la fe como escape), y la propuesta de la rebeldía y la aceptación lúcida de la existencia, ilustrada a través del mito de Sísifo y reflejada en obras como *El extranjero* y *La peste*.
-- **Obras principales**: galería con las portadas y datos de sus libros más importantes, desde *El extranjero* (1942) hasta *El primer hombre* (obra póstuma, 1994).
-- **Multimedia**: sección con un video y un audio relacionados con su vida y pensamiento.
+## 📚 Contenido de la página
 
-## Archivos
+La página cuenta con un menú desplegable de **"Secciones"**, desde donde se puede acceder a los diferentes apartados:
 
-- `index.html`: estructura y contenido de la página.
-- `styles.css`: estilos visuales (tema oscuro rojizo, tarjetas con efecto vidrio esmerilado, diseño responsivo).
-- `Alber-Camus.mp4` y `audio.mp3`: archivos multimedia referenciados en la sección "Multimedia" (deben añadirse a la carpeta del proyecto).
+### 👶 Primeros años
+Información sobre la infancia de Albert Camus en Argel, la muerte de su padre durante la Primera Guerra Mundial y su formación académica gracias al apoyo de uno de sus maestros.
+
+### ✍️ Carrera y obra
+Su trayectoria como periodista y escritor, su participación en la Resistencia francesa durante la Segunda Guerra Mundial y su trabajo como editor del periódico clandestino *Combat*.
+
+### 🏆 Legado
+Información sobre el Premio Nobel de Literatura recibido en 1957, su muerte en 1960 y la influencia que su pensamiento continúa teniendo.
+
+### 🌀 Lo Absurdo
+Explicación del concepto filosófico del absurdo desarrollado por Camus y el conflicto entre la búsqueda humana de sentido y la indiferencia del universo.
+
+También se aborda su propuesta de vivir y rebelarse ante el absurdo, representada mediante el mito de **Sísifo** y reflejada en obras como *El extranjero* y *La peste*.
+
+### 📚 Obras principales
+Galería con algunas de las obras más importantes de Albert Camus, incluyendo:
+
+- *El extranjero* — 1942
+- *El mito de Sísifo* — 1942
+- *La peste* — 1947
+- *La caída* — 1956
+- *El primer hombre* — 1994, publicación póstuma
+
+### 🎬 Multimedia
+Sección dedicada a contenido audiovisual relacionado con Albert Camus y su pensamiento.
+
+Incluye:
+
+- 🎥 Video sobre Camus.
+- 🎧 Audio relacionado con el proyecto.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
+### 🌐 Frontend
+
+- **HTML5** — Estructura y contenido de la página.
+- **CSS3** — Diseño visual, animaciones, efectos y diseño responsivo.
+
+### 🎨 Diseño
+
+- 🌑 Tema oscuro.
+- 🔴 Paleta de colores rojizos.
+- 🪟 Efectos de vidrio esmerilado.
+- 📱 Diseño responsivo.
+- 🃏 Tarjetas para organizar la información.
+- 📖 Galería de obras literarias.
+- 🎬 Integración de contenido multimedia.
+
+---
+
+## 📂 Estructura del proyecto
+
+```text
+Web_Page/
+│
+├── index.html
+├── styles.css
+│
+├── Alber-Camus.mp4
+└── audio.mp3
